@@ -1,0 +1,10 @@
+Das ist eine Technik, bei der Prozesse parallelisiert werden.
+Man kann dadurch bei Systemen mit mehreren Prozessoren Aufgaben gleichzeitig erledigen. 
+Das ist für die Motorsteuerung wichtig. So muss es einen Prozess geben, der läuft, solange der Motor sich bewegt. 
+Während das passiert, müssen aber auch andere Parameter überwacht werden. 
+Zum Beispiel, ob ein Sensor feststellt, dass der Riegel zu ist - oder ein Defekt vorliegt - oder der Benutzer entscheidet,
+dass er doch lieber schließen will... oder, oder, oder.
+
+Hier ein Beispiel für einfaches Multiprocessing.
+
+Eine gute und umfassende Quelle mit Beispielen befindet sich hier: https://docs.python.org/3/library/multiprocessing.html
